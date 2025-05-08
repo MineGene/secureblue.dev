@@ -23,7 +23,48 @@ In addition, GNOME also provides weak <a href="https://gitlab.gnome.org/GNOME/gn
 
 This is a relative recommendation between the desktop environments available on secureblue. GNOME and Sway have some extra security niceties like the ones listed above. However, this should not be misconstrued as saying that either one solves any of the fundamental issues with desktop Linux security. For more details, consult the table below.
 
-<div class="table-wrapper">{% include "maintable.md" %}</div>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>DE/WM</th>
+        <th>Secures privileged Wayland protocols?</th>
+        <th>Thumbnailer sandboxing?</th>
+        <th>Stability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>GNOME</td>
+        <td>Yes</td>
+        <td>Weak</td>
+        <td>Stable</td>
+        <td>Recommended</td>
+      </tr>
+      <tr>
+        <td>KDE Plasma</td>
+        <td>No</td>
+        <td>None</td>
+        <td>Stable</td>
+        <td>Not recommended until Plasma secures privileged Wayland protocols (ETA: Plasma 6.4)</td>
+      </tr>
+      <tr>
+        <td>Sway</td>
+        <td>Yes</td>
+        <td>None</td>
+        <td>Stable</td>
+        <td>Recommended for tiling WM users</td>
+      </tr>
+      <tr>
+        <td>COSMIC</td>
+        <td>No</td>
+        <td>None</td>
+        <td>Experimental</td>
+        <td>Not currently recommended</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## [Desktop](#desktop)
 

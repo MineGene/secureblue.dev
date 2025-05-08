@@ -1,6 +1,0 @@
-| DE/WM      | Secures privileged Wayland protocols? | Thumbnailer sandboxing? | Stability    | Recommendation                                                                                           |
-|------------|---------------------------------------|-------------------------|--------------|----------------------------------------------------------------------------------------------------------|
-| GNOME      | Yes                                   | Weak                     | Stable       | Recommended                                                                                              |
-| KDE Plasma | No                                    | None                    | Stable       | Not recommended until Plasma secures privileged Wayland protocols (ETA: Plasma 6.4)                                       |
-| Sway       | Yes                                    | None                    | Stable       | Recommended for tiling WM users                                                                                |
-| COSMIC     | No                                    | None                    | Experimental | Not currently recommended                                                                                |
