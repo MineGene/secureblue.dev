@@ -280,6 +280,12 @@ footer a, footer a:visited {
 table {
     border-collapse: collapse;
     width: 100%;
+    max-width: 800px;
+}
+
+.table-wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
 }
 
 td {
@@ -442,6 +448,7 @@ th, tr, td {
 
 th {
     background-color: #3264FF22;
+    padding: 0.5rem;
 }
 
 /* latin */

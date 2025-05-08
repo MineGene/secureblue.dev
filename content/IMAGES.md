@@ -23,6 +23,8 @@ In addition, GNOME also provides weak <a href="https://gitlab.gnome.org/GNOME/gn
 
 This is a relative recommendation between the desktop environments available on secureblue. GNOME and Sway have some extra security niceties like the ones listed above. However, this should not be misconstrued as saying that either one solves any of the fundamental issues with desktop Linux security. For more details, consult the table below.
 
+<div class="table-wrapper">
+
 | DE/WM      | Secures privileged Wayland protocols? | Thumbnailer sandboxing? | Stability    | Recommendation                                                                                           |
 |------------|---------------------------------------|-------------------------|--------------|----------------------------------------------------------------------------------------------------------|
 | GNOME      | Yes                                   | Weak                     | Stable       | Recommended                                                                                              |
@@ -30,6 +32,7 @@ This is a relative recommendation between the desktop environments available on 
 | Sway       | Yes                                    | None                    | Stable       | Recommended for tiling WM users                                                                                |
 | COSMIC     | No                                    | None                    | Experimental | Not currently recommended                                                                                |
 
+</div>
 
 ## [Desktop](#desktop)
 
@@ -39,14 +42,19 @@ This is a relative recommendation between the desktop environments available on 
 
 #### Silverblue (GNOME)
 
+<div class="table-wrapper">
+
 | Name                                      | Base      | NVIDIA Support          |
 |-------------------------------------------|-----------|-------------------------|
 | `silverblue-main-hardened`                | Silverblue| No                      |
 | `silverblue-nvidia-hardened`              | Silverblue| Yes, closed drivers     |
 | `silverblue-nvidia-open-hardened`         | Silverblue| Yes, open drivers       |
 
+</div>
 
 #### Kinoite (KDE Plasma)
+
+<div class="table-wrapper">
 
 | Name                                      | Base      | NVIDIA Support          |
 |-------------------------------------------|-----------|-------------------------|
@@ -54,7 +62,11 @@ This is a relative recommendation between the desktop environments available on 
 | `kinoite-nvidia-hardened`                 | Kinoite   | Yes, closed drivers     |
 | `kinoite-nvidia-open-hardened`            | Kinoite   | Yes, open drivers       |
 
+</div>
+
 #### Sericea (Sway)
+
+<div class="table-wrapper">
 
 | Name                                      | Base      | NVIDIA Support          |
 |-------------------------------------------|-----------|-------------------------|
@@ -62,9 +74,13 @@ This is a relative recommendation between the desktop environments available on 
 | `sericea-nvidia-hardened`                 | Sericea   | Yes, closed drivers     |
 | `sericea-nvidia-open-hardened`            | Sericea   | Yes, open drivers       |
 
+</div>
+
 ### [Experimental](#experimental)
 
 #### COSMIC
+
+<div class="table-wrapper">
 
 | Name                                      | Base                  | NVIDIA Support          |
 |-------------------------------------------|-----------------------|-------------------------|
@@ -72,9 +88,13 @@ This is a relative recommendation between the desktop environments available on 
 | `cosmic-nvidia-hardened`                  | COSMIC                | Yes, closed drivers     |
 | `cosmic-nvidia-open-hardened`             | COSMIC                | Yes, open drivers       |
 
+</div>
+
 ## [Server](#server)
 
 {% include alert.html type='note' content='After you finish setting up your <a href="https://fedoraproject.org/coreos/">Fedora CoreOS</a> installation, you will need to disable <code>zincati.service</code> before rebasing to securecore.' %}
+
+<div class="table-wrapper">
 
 | Name                                      | Base      | NVIDIA Support          | ZFS Support |
 |-------------------------------------------|-----------|-------------------------|-------------|
@@ -84,3 +104,5 @@ This is a relative recommendation between the desktop environments available on 
 | `securecore-zfs-main-hardened`            | CoreOS    | No                      | Yes         |
 | `securecore-zfs-nvidia-hardened`          | CoreOS    | Yes, closed drivers     | Yes         |
 | `securecore-zfs-nvidia-open-hardened`     | CoreOS    | Yes, open drivers       | Yes         |
+
+</div>
