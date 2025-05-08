@@ -23,7 +23,7 @@ In addition, GNOME also provides weak <a href="https://gitlab.gnome.org/GNOME/gn
 
 This is a relative recommendation between the desktop environments available on secureblue. GNOME and Sway have some extra security niceties like the ones listed above. However, this should not be misconstrued as saying that either one solves any of the fundamental issues with desktop Linux security. For more details, consult the table below.
 
-<div class="table-wrapper">{% render "maintable.md" %}</div>
+<div class="table-wrapper">{% include "maintable.md" %}</div>
 
 ## [Desktop](#desktop)
 
