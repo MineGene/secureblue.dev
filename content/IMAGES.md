@@ -31,6 +31,7 @@ This is a relative recommendation between the desktop environments available on 
         <th>Secures privileged Wayland protocols?</th>
         <th>Thumbnailer sandboxing?</th>
         <th>Stability</th>
+        <th>Recommendation</th>
       </tr>
     </thead>
     <tbody>
